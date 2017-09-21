@@ -1,14 +1,22 @@
 <h1> New Link </h1>
 
 <form action="/links" method="POST">
+
   <label for="title">
     Title:
-    <input type="text" name="title" />
+    <input type="text" name="title">
   </label>
+
   <label for="url">
     URL:
-    <input type="text" name="url" />
+    <input type="text" name="url" placeholder="name? what name?!" style="width:200px">
   </label>
+
+  <label for="tags">
+    Tag:
+    <input type="text" name="tags">
+  </label>
+
   <input type="submit" value="Create link">
 
 </form>

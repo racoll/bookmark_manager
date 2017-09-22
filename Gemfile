@@ -13,6 +13,8 @@ gem 'dm-postgres-adapter'
 gem 'sinatra'
 gem 'database_cleaner'
 gem 'pry'
+gem 'rake'
+gem 'bcrypt'
 
 group :test do
   gem 'capybara'
